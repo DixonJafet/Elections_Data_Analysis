@@ -25,6 +25,6 @@ models:
       +materialized: view
       +schema: staging
     
-    dim:
+    analytics:
       +materialized: table
       +schema: analytics
