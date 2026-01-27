@@ -5,7 +5,7 @@ WITH get_src_abs_prov AS (
 )
 
 SELECT
-  "año" AS "AÑO",
+  "año" AS "año",
   provincia,
   abstencionismo
 FROM get_src_abs_prov
