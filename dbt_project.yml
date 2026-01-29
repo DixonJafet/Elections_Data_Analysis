@@ -13,6 +13,10 @@ seed-paths: ["seeds"]
 macro-paths: ["macros"]
 snapshot-paths: ["snapshots"]
 
+seeds:
+  Snowflake_Analytics_Elections:
+    +quote_columns: true
+
 clean-targets:
   - "target"
   - "dbt_packages"
