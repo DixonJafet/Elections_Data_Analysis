@@ -13,6 +13,6 @@ SELECT
         WHEN sexo = 'Hombres' THEN 'Male'
         WHEN sexo = 'Mujeres' THEN 'Female'
         ELSE sexo 
-    END as sexo,
+    END as sex,
     electores as voters
 FROM get_src_abs_sex
